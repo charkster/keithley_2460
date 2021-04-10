@@ -3,7 +3,7 @@ import time
 class keithley_2460():
 
     def __init__(self, pyvisa_instr):
-        self.ke2460 = pyvisa_instr # this is the pyvisa instrument, rm.open_resource('USB0::0x05E6::0x2460::04077722::INSTR')
+        self.ke2460 = pyvisa_instr # this is the pyvisa instrument, rm.open_resource('USB0::0x0466::0x2860::04074562::INSTR')
 
     def get_all_scpi_list(self):
         function_list = ['CURRent', 'VOLTage', 'RESistance']
