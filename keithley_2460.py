@@ -34,7 +34,7 @@ class keithley_2460():
                 result = " " + result
                 result_list.append(command.format(line, result))
         #                print(command.format(line, result))
-        for dict in [self.display_dict_1, self.format_dict, self.format_dict, self.output_dict_1, self.sense_dict_1,
+        for dict in [self.display_dict_1, self.format_dict, self.output_dict_1, self.sense_dict_1,
                      self.source_dict_1]:
             for command in dict:
                 time.sleep(0.1)
@@ -284,9 +284,6 @@ class keithley_2460():
                                'DIGital:LINE6:MODE DIG,IN',
                                'DISPlay:READing:FORMat PREF',
                                'DISPlay:LIGHt:STATe ON50',
-                               'FORMat ASC',
-                               'FORMat:ASCii:PRECision 0',
-                               'FORMat:BORDer SWAP',
                                'FORMat ASC',
                                'FORMat:ASCii:PRECision 0',
                                'FORMat:BORDer SWAP',
