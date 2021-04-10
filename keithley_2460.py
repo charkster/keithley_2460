@@ -90,7 +90,7 @@ class keithley_2460():
                     "FORMat{0}"                 : "select the data format that is used when transferring readings over the remote interface: valid values are ASCii, REAL, SREal" }
 
     # function is CURRent or VOLTage {0}, value is {1}
-    output_dict = { "OUTPut1:{0}:SMODe{1}" : "s the state of the source when the output is turned off : valid values are NORMal, HIMPedance, ZERO, GUARd" }
+    output_dict = { "OUTPut1:{0}:SMODe{1}" : "select the state of the source when the output is turned off : valid values are NORMal, HIMPedance, ZERO, GUARd" }
 
     # value is {0}
     output_dict_1 = { "OUTPut1:STATe{0}" : "enables or disables the source output: OFF or 0, ON or 1" }
