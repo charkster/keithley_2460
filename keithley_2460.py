@@ -78,7 +78,7 @@ class keithley_2460():
                      "DIGital:LINE{0}:STATe{1}" : "sets a digital I/O line high or low when the line is set for digital control: 0, 1" }
 
     # function is CURRent, RESistance, VOLTage {0}, value is {1}
-    display_dict   = { "DISPlay:{0}:DIGits{1}" : "s the number of digits that are displayed for measurements on the front panel: valid values are 3, 4, 5, 6" }
+    display_dict   = { "DISPlay:{0}:DIGits{1}" : "select the number of digits that are displayed for measurements on the front panel: valid values are 3, 4, 5, 6" }
 
     # value is {0}
     display_dict_1 = { "DISPlay:LIGHt:STATe{0}"    : "select the light output level of the front-panel display: valid values are ON100, ON75, ON50, ON25, OFF and BLACkout",
