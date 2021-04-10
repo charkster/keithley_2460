@@ -297,12 +297,3 @@ class keithley_2460():
                                'SOURce1:FUNCtion VOLT',
                                'SOURce1:CURRent:VLIMit 7.350000E+00',
                                'SOURce1:VOLTage:PROTection NONE' ]
-
-import pyvisa
-rm = pyvisa.ResourceManager()
-#print(rm.list_resources())
-smu = keithley_2460(rm.open_resource('USB0::0x0346::0x2570::4560771233::INSTR'))
-#smu.ke2460.write('*RST')
-time.sleep(2)
-print(smu.get_unique_scpi_list())
-
